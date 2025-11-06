@@ -1,34 +1,37 @@
 # 🏋️‍♀️ FitTech Hub
-A full-stack AI-powered **health and fitness platform** that delivers personalized workout plans, tracks user progress, and recommends optimized routines based on activity data.
+
+AI-powered health and fitness platform that helps users build personalized workout plans, track progress, and generate data-driven recommendations — all in one place.
 
 ---
 
-## 🚀 Features
-- **AI-Powered Recommendations** — OpenAI API suggests daily workouts based on progress.
-- **Secure Authentication** — JWT-based login & role-based access.
-- **Workout Tracking** — Log exercises, sets, and performance analytics.
-- **Custom Plans** — Create and modify fitness plans per goal (muscle gain, endurance, etc.).
-- **Cloud Integration** — User data and media stored securely in AWS S3.
-- **Admin Dashboard** — Manage users, plans, and analytics.
+## 🚀 Key Features
+- **AI-Generated Plans** – Uses OpenAI API to suggest personalized daily workouts.
+- **Progress Tracking** – Log workouts, sets, and performance analytics.
+- **Secure Auth** – JWT-based authentication with role-based access control.
+- **Cloud Storage** – Stores media and user data securely in **AWS S3**.
+- **Admin Dashboard** – Manage users, workouts, and analytics insights.
+- **Scalable Stack** – Designed with modular microservice-friendly architecture.
 
 ---
 
 ## 🧩 Tech Stack
+
 | Layer | Technologies |
-|:------|:--------------|
-| **Frontend** | React, TypeScript, Tailwind CSS, Vite |
-| **Backend** | Node.js, Express, REST API |
-| **Database** | MongoDB + Mongoose |
+|-------|---------------|
+| **Frontend** | React · TypeScript · Tailwind CSS · Vite |
+| **Backend** | Node.js · Express · REST APIs |
+| **Database** | MongoDB · Mongoose |
 | **AI Integration** | OpenAI API |
-| **Cloud & Infra** | AWS (Lambda, S3, CloudFront) |
-| **DevOps** | Docker, GitHub Actions CI |
-| **Testing** | Jest & Supertest |
+| **Cloud/Infra** | AWS Lambda · S3 · CloudFront |
+| **DevOps** | Docker · GitHub Actions CI |
+| **Testing** | Jest · Supertest |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Getting Started
+
 ```bash
-# Clone
+# Clone the repo
 git clone https://github.com/SupreetP/fittech-hub.git
 cd fittech-hub
 
@@ -40,3 +43,11 @@ cd server && npm start
 
 # Run frontend
 cd client && npm run dev
+
+
+🧠 Architecture Overview
+fittech-hub/
+ ├── client/      → React frontend
+ ├── server/      → Express backend
+ ├── shared/      → Common interfaces & constants
+
